@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+}
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fc;
+    --bs-supporting-color:#c850c0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:'Lexend Deca' sans-serif;
+    color: var(--bs-dark-color);
+}
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.nav-link,.navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: var(--secondary-color); 
+}
+.nav-link:hover{
+    color: var(--secondary-color);
+}
+
+/* herro section start */
+.bg-color{
+    background-color: var(--bs-dark-color);
+}
+
+.bg-main {
+    height: 80vh;
+    position: relative;
+}
+
+.hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.hero-video-section{
+    
+    
+    width: 30rem;
+    border-radius: 2rem;
+}
+button,a{
+    font-size: 1.15rem !important;
+left: 0.03rem;
+word-spacing: .1rem;
+}
+/* hero section end */
+
+/* serivice section start */
+.services-section{
+    padding: 6rem 0 3rem 0 !important  ;
+}
+
+
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+    
+    }
+    .common-title{
+    margin-bottom: 4.2rem;
+    }
+.icon-span{
+width: 2.5rem;
+height: 2.5rem;
+background-color: var(--secondary-color);
+color: var(--bs-main-color);
+    }
+
+    .card-box:hover{
+
+        box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.4);
+
+   
+    }
+    .fw-normal{
+        font-weight: bold;
+        font-style: initial;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+/* service section end     */
+
+
+/*shape divider start */
+
+.custom-shape-divider-bottom-1684208460 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684208460 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1684208460 .shape-fill {
+    fill: var( --bs-main-color);
+}
+
+/*shape dividers end */
+
+
+
+/* digital style start */
+.more-info-section{
+    background-image:linear-gradient(rgba(22,22,22,0.7),rgba(22,22,22,0.9)),url(../images/vladimir-visotsky-ZQKk3AXTGlQ-unsplash.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.more-info-section .img-section{
+position: relative;
+}
+.more-info-section .img-section img{
+    width: 70%;
+}
+
+/* digital style end */
+
+/* online mode start */
+
+.bussiness-section {
+    padding-top: 3rem;
+}
+.common-section{
+    padding: 0 0 9rem 0;
+
+   
+}
+/* online mode end */
+
+
+/* textimonial style start */
+.carousel .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+.carousel-inner .card p{
+color: green;
+}
+.carousel-inner .card:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-color);
+}
+.carousel-inner .card p:hover{
+color: black;
+}
+.cart:hover{
+    color: black;
+
+}
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+.carousel-indicators{
+    bottom: -20%;
+}
+
+.carousel-indicators [data-bs-target]{
+    margin-top: 2rem;
+    width: .7rem;
+    height: .7rem;
+    background-color: #1089ff;
+background-color: var(--secondary-color);
+}
+
+
+
+
+/* teximoinal end */
+
+/* exper panel start */
+.text-grey{
+    color: var(--bs-primary-color);
+}
+
+/* expert panel end */
+
+/* contact start css */
+.contact-section{
+    position: relative;
+}
+.contact-section .common-heading{
+    padding-top: 6rem;
+}
+.contact-section .form-section{
+    width: 50%;
+}
+.custom-shape-divider-top-1687935092 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1687935092 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1687935092 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* contsct end */
+
+/*footer styling */
+.main-footer-section{
+    padding: 0 0 4rem 0;
+       background-color: #222;
+       color: var( --bs-main-color);
+   }
+   
+   .contact-div{
+       background-color:  var(--bs-dark-primary);
+   }
+   
+   .icon-div{
+       width: 5rem;
+       height: 5rem;
+       /*background: #1089ff;*/
+   }
+   
+   .icon-span{
+       width: 2.5rem;
+       height: 2.5rem;
+       background-color: #1089ff;
+       color: var( --bs-main-color);
+   }
+   
+   .icon-span .fa-brands, .fab{
+       color:white;
+   }
+   
+  
+
+   /* responsibe and media query start */
+   @media screen and (max-width:1200px)
+   {
+.hero-video-section{
+    width: 20rem;
+    border-radius: 1rem;
+
+}
+.carousel-indicators  {
+    bottom: -8%;
+}
+   }
+
+
+@media screen and (max-width:990px) {
+    .navbar-toggler{
+        border-color: var(--bs-main-color);
+    }
+    .navbar-toggler-icon{
+       background-color: var(--bs-main-color); 
+       color: var(--bs-main-color);
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .common-section.common-heading{
+        font-size: 2rem;
+    }
+    .para-width{
+        width: auto;
+    }
+.hero-section{
+height: 100vh;
+}
+.more-info-section{
+    text-align: center;
+}
+.more-info-section .common-heading{
+    font-size: 2rem;
+}
+.carousel-indicators  {
+    bottom: -8%;
+}
+
+}
+/* responship end */
+
+   
+   
